@@ -1,0 +1,72 @@
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.white_text {
+  text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+ -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+ -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  padding:20px;
+  padding-top:0px;
+}
+#grid ul {
+  border-right:1px dashed gray;
+  width:100px;
+  margin:0;
+  padding:20px;
+}
+#grid #article {
+  padding-right:10px;
+padding-left: 10px;
+}
+@media(max-width:800px){
+  #grid{
+    display:block;
+  }
+  #grid ul {border-right:none;}
+}
+a {
+  text-decoration: none;
+  font-family: 'DungGeunMo';
+  line-height: 180%;
+  color:yellow;
+}
+li{
+    color:lightgray;
+}
+p {
+  font-family: 'Chosunilbo_myungjo';
+  line-height: 180%;
+  color:white;
+}
+body {margin:0;
+background-color: black;}
+h1 {
+  font-size: 40px;
+  font-family: 'DungGeunMo';
+  text-align: center;
+  border-bottom:2px solid gray;
+  padding:30px;
+  margin:0;
+}
+h2 {
+  font-family: 'DungGeunMo';
+  font-size: 20px;
+  line-height: 180%;
+}
+h3 {
+  font-family: 'DungGeunMo';
+  line-height: 180%;
+}
