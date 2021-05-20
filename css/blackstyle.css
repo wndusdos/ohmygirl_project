@@ -43,9 +43,6 @@ a {
   line-height: 180%;
   color:yellow;
 }
-li{
-    color:lightgray;
-}
 p {
   font-family: 'Chosunilbo_myungjo';
   line-height: 180%;
@@ -69,4 +66,10 @@ h2 {
 h3 {
   font-family: 'DungGeunMo';
   line-height: 180%;
+}
+ol {
+  color:gray;
+}
+ul {
+  color:gray;
 }
