@@ -47,7 +47,7 @@ body {
   background-position: 50% 50%;/* 디폴트는 top left, 혹은 0 0 */
   background-attachment: fixed;
   background-repeat: no-repeat;/* 디폴트는 repeat */
-  background-size: 100% 100%;
+  background-size: 100% auto;
   height: 100%;
   margin:0;
 }
