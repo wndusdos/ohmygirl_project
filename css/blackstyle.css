@@ -62,14 +62,61 @@ h2 {
   font-family: 'DungGeunMo';
   font-size: 20px;
   line-height: 180%;
+  color:#363533;
 }
 h3 {
+  display:inline;
   font-family: 'DungGeunMo';
   line-height: 180%;
+  font-weight: bold;
 }
-ol {
-  color:gray;
+button {
+  position:absolute;
+  left:46%;
+  transform: translate(-50%, -50%);
+  font-family: 'DungGeunMo';
+  font-weight: normal;
+  font-size: 20px;
+  border-radius: 0%;
+  border-style:none;
+  width: auto;
+  height: auto;
+  margin:20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 5px 20px;
 }
-ul {
-  color:gray;
+button:hover{
+  background-color: #363533;
+  color: white;
+  cursor: pointer;
+  transition:0.4s;
+}
+span{
+  width:auto;
+  height:20px;
+  padding:5px;
+}
+span.inline-block{
+  display:inline-block;
+}
+audio {
+  display:none;
+}
+#highlight {
+  color:#363533;
+  background-color: lightgreen;
+}
+.point span {
+  color:#043362;
+  background-color: #BCC8E4;
+}
+.img-wrap{
+  position: relative;
+}
+.img-2{
+  position:fixed;
+  right:0;
+  bottom:60px;
+  opacity:30%;
 }

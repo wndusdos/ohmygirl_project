@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/isUudT58Xfk?controls=0&amp;autoplay=1&start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <h1>스틱스.저니</h1>
   <div id="grid">
     <ul>
@@ -13,10 +14,12 @@
       <li><a href="https://bluenerrymango.myportfolio.com/" target="_blank" title="Bluenerrymango Portfolio">Creator</a>
     </ul>
       <div id="article">
-        <img src="start.png" width="100%" style='margin-top:20px'>
-        <h2 style="margin-top:20px">여정을 떠나기 앞서</h2>
-        <p>이 프로젝트는 가상의 앨범 제작을 위해서 진행하는 과정입니다. 오마이걸의 미래 가상 앨범을 만들어보고, 효과적으로 소개하기 위해 사용하는 방식이므로 <strong>실제 오마이걸과는 완전히 무관한 <u>개인 창작물</u>임을 밝힙니다.</strong> 또한 아직 완성되지 않았기에, 중간에 미완성 부분이 나오더라도 양해해주시기 바랍니다.</p>
-        <p><h3><a href="2.html" title="Are you ready for it?">Start</a><h3></p>
+        <div class="point">
+        <h2 style="margin-top:10px"><span class="point">여정을 떠나기 앞서</span></h2>
+        <button onClick="location.href='2.html'; return false;" style="margin-top:200px" title="Are you ready for it?">시작하기</button>
+        <img src="start.png" width="100%" style='margin-top:10px'>
+        <p>이 프로젝트는 가상의 앨범 제작을 위해서 진행하는 과정입니다. 오마이걸의 미래 가상 앨범을 만들어보고, 효과적으로 소개하기 위해 사용하는 방식이므로 <strong>실제 오마이걸과는 완전히 무관한 <u><span id="highlight">개인 창작물</span></u>임을 밝힙니다.</strong> 또한 아직 완성되지 않았기에, 중간에 미완성 부분이 나오더라도 양해해주시기 바랍니다.</p>
+        </div>
       </div>
     </div>
 </body>
