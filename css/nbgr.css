@@ -25,6 +25,9 @@ a:hover {
   transition: 0.4s;
   cursor: pointer;
 }
+body {
+  background-size: 120% auto;
+  height: 100%;
 p {
   font-family: 'Chosunilbo_myungjo';
   line-height: 180%;

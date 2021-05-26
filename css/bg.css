@@ -35,6 +35,10 @@ z-index:1;
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;}
+  body {
+  background-size: 120% auto;
+  height: 100%;
+  }
 button {
   position:absolute;
   left:46%;

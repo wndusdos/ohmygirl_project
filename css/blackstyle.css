@@ -65,7 +65,10 @@ p {
   color:white;
 }
 body {margin:0;
-background-color: black;}
+background-color: black;
+background-size: 120% auto;
+height: 100%;
+}
 h1 {
   font-size: 40px;
   font-family: 'DungGeunMo';
