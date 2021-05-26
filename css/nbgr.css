@@ -23,6 +23,7 @@ a:hover {
   font-family: 'DungGeunMo';
   line-height: 180%;
   transition: 0.4s;
+  cursor: pointer;
 }
 p {
   font-family: 'Chosunilbo_myungjo';

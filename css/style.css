@@ -50,6 +50,7 @@ a:hover {
   font-family: 'DungGeunMo';
   line-height: 180%;
   transition: 0.4s;
+  cursor: pointer;
 }
 p {
   font-family: 'Chosunilbo_myungjo';
@@ -116,9 +117,13 @@ span.inline-block{
 audio {
   display:none;
 }
+iframe{
+  display:none;
+}
 #highlight {
   color:#363533;
   background-color: lightgreen;
+  font-weight: bold;
 }
 .point span {
   color:#043362;
