@@ -169,3 +169,6 @@ iframe{
   bottom:20%;
   opacity:30%;
 }
+.invisible{
+  display:none;
+}
