@@ -1,0 +1,70 @@
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  background-size: 120% auto;
+  height: 100%;
+  }
+button {
+  position:absolute;
+  left:46%;
+  transform: translate(-50%, -50%);
+  font-family: 'DungGeunMo';
+  font-weight: normal;
+  font-size: 20px;
+  border-radius: 0%;
+  border-style:none;
+  width: auto;
+  height: auto;
+  margin:20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 5px 20px;
+}
+button:hover{
+  background-color: #363533;
+  color: white;
+  cursor: pointer;
+  transition:0.4s;
+}
+audio {
+  display:none;
+}
+iframe{
+  display:none;
+}
+
+#bg-container{
+  position:relative;
+  width:100%;
+  overflow: hidden;
+}
+.image{
+  width:100%;
+position:fixed;
+bottom:0;
+z-index:1;
+}
+.text{
+  position:absolute;
+  width:100%;
+  top:20%;
+  z-index: 2;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;}
