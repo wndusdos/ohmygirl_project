@@ -1,0 +1,261 @@
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  /*Responsive Styles*/
+/* Smartphones (portrait) ---------------- */
+@media only screen and (max-width : 320px)
+{
+/* Add Your CSS Styling Here */
+}
+/* Smartphones (landscape) ---------------- */
+@media only screen and (min-width : 321px)and (max-width : 767px)
+{
+/* Add Your CSS Styling Here */
+}
+/* Tablets (portrait) -------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+/* Add Your CSS Styling Here */
+}
+/* Tablets (landscape) ------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+/* Add Your CSS Styling Here */
+}
+/* Old Desktops and laptops ------------------ */
+@media only screen and (min-width : 1025px)
+{
+/* Add Your CSS Styling Here */
+}
+/* Desktops ------------------ */
+@media only screen and (min-width : 1201px)
+{
+/* Add Your CSS Styling Here */
+}
+#grid .nav li {
+  color:#9B9A98;
+}
+#grid .nav a {
+  color:#9C9A94;
+}
+#grid .nav a:hover {
+  color:#363533;
+  background-color: #F5F2F9;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color:#7868A1;
+  font-family: 'DungGeunMo';
+  line-height: 180%;
+}
+a:hover {
+  text-decoration: none;
+  color:#043362;
+  background-color: lightgreen;
+  font-family: 'DungGeunMo';
+  line-height: 180%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+li {
+  line-height: 180%;
+  font-weight: bold;
+  color:#7868A1;
+}
+p {
+  font-family: 'Chosunilbo_myungjo';
+  line-height: 180%;
+}
+body {
+  background: white url('line.png') no-repeat;
+  background-position: 50% 50%;/* 디폴트는 top left, 혹은 0 0 */
+  background-attachment: fixed;
+  background-repeat: no-repeat;/* 디폴트는 repeat */
+  background-size: cover;
+  height: 100%;
+  margin:0;
+}
+h1 {
+  color:#363533;
+  font-size:35px;
+  font-family: 'DungGeunMo';
+  padding:0;
+  margin:0;
+}
+h2 {
+  font-family: 'DungGeunMo';
+  font-size: 20px;
+  line-height: 180%;
+  color:#363533;
+  margin-bottom: 30px;
+}
+h3 {
+  display:inline;
+  font-size: 17px;
+  font-family: 'DungGeunMo';
+  line-height: 180%;
+  font-weight: bold;
+}
+h4 {
+  display:inline;
+  font-family: 'Chosunilbo_myungjo';
+  line-height: 180%;
+  font-weight: bold;
+}
+button {
+  position:absolute;
+  left:46%;
+  transform: translate(-50%, -50%);
+  font-family: 'DungGeunMo';
+  font-weight: normal;
+  font-size: 20px;
+  border-radius: 0%;
+  border-style:none;
+  width: auto;
+  height: auto;
+  margin:20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 5px 20px;
+}
+button:hover{
+  background-color: #363533;
+  color: white;
+  cursor: pointer;
+  transition:0.4s;
+}
+span{
+  width:auto;
+  height:20px;
+  padding:5px;
+}
+span.inline-block{
+  display:inline-block;
+}
+audio {
+  display:none;
+}
+iframe{
+  display:none;
+}
+
+.header {
+  background-image: url("line.png");
+  background-size: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.header a:hover {
+  color:#BCC8E4;
+  background-color: #F5F2F9;
+  }
+
+
+.point span {
+  color:#043362;
+  background-color: #BCC8E4;
+}
+#highlight {
+  color:#363533;
+  background-color: #DDDBD7;
+  font-weight: bold;
+}
+.img-wrap{
+  overflow: hidden;
+  position: relative;
+}
+.img-memo{
+  left:20%;
+  width:60%;
+  height:auto;
+  position:relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.img-1 {
+  position:relative;
+  width:100%;
+  height:auto;
+}
+.img-2{
+  position:fixed;
+  width: 100%;
+  top:10%;
+  right:0;
+  bottom:20%;
+  opacity:30%;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  margin:0;
+}
+
+/* Make the image responsive */
+.container img {
+  width:100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container button {
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:lightgreen;
+}
+.container .btn:hover {
+  background-color: black;
+  color:lightgreen;
+  border-color:lightgreen;
+  border-style: solid;
+}
+
+#bg-container{
+  position:relative;
+  width:100%;
+  overflow: hidden;
+}
+.image{
+  width:100%;
+position:fixed;
+bottom:0;
+z-index:1;
+}
+.text{
+  position:absolute;
+  width:100%;
+  top:20%;
+  z-index: 2;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;}
+@keyframes loading_ine {
+  from {width: 0%;}
+  to {width: 20%;}
+}
+
+.ta-right {
+  text-align: right;
+}

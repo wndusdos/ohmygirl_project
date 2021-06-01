@@ -1,0 +1,238 @@
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+  text-decoration: none;
+  color:#363533;
+  font-family: 'DungGeunMo';
+  line-height: 180%;
+}
+a:hover {
+  text-decoration: none;
+  color:lightgreen;
+  background-color: none;
+  font-family: 'DungGeunMo';
+  line-height: 180%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.fadein {
+  animation: fadeIn 2s ease forwards;
+  opacity:0;
+}
+.fadeout{
+  animation: fadeOut 2s;
+}
+@keyframes fadeIn {
+  from{opacity:0;}
+  to{opacity:1;}
+}
+@keyframes fadeOut {
+  from{opacity: 1;}
+  to{opacity:0;}
+}
+
+.image {
+  animation: imagein 2s ease forwards;
+  opacity:0
+}
+@keyframes imagein {
+  from{opacity:0;}
+  to{opacity:1;}
+}
+
+.scaleimage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: scale(1.8);
+    animation: scaleImage 5s ease-out forwards;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'DungGeunMo';
+    font-size: calc(10px + 8vw);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    mix-blend-mode: multiply;
+    opacity: 0;
+    animation: fadeInText 3s 2s ease-out forwards;
+}
+@keyframes scaleImage {
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes fadeInText {
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInbutton {
+    from{opacity: 0;}
+    to{opacity:1}
+}
+button {
+  position: absolute;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'DungGeunMo';
+  background-color: white;
+  color: #363533;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:lightgreen;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25)
+}
+button:hover{
+  background-color: #363533;
+  color: white;
+  cursor: pointer;
+  transition:0.4s;
+}
+.btnfadein {
+  opacity: 0;
+  animation: fadeInbutton 3s ease-out forwards;
+}
+
+.typewriter  {
+     overflow: hidden;
+     border-right: .15em solid #fff;
+     white-space: nowrap;
+     /* keeps content in one line */
+     letter-spacing: .15em;
+     animation: typing 2.5s steps(22, end) backwards, blink-caret .75s step-end;
+}
+.typewriter h4 {
+     font-size: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     margin:0 auto;
+     border-right: .15em solid black;
+     -webkit-animation: typing 2s steps(26, end), blink-caret 1s step-end infinite;
+     -webkit-animation-delay: 3s;
+     -webkit-animation-fill-mode: both;
+     -moz-animation: typing 2s steps(26, end), blink-caret 1s step-end infinite;
+     -moz-animation-delay: 3s;
+}
+.typewriter2  {
+     overflow: hidden;
+     border-right: .15em solid #fff;
+     white-space: nowrap;
+     /* keeps content in one line */
+     letter-spacing: .15em;
+     animation: typing2 2.5s steps(22, end) backwards, blink-caret .75s step-end;
+}
+.typewriter2 h4 {
+     overflow: hidden;
+     border-right: .15em solid #fff;
+     white-space: nowrap;
+     /* keeps content in one line */
+     letter-spacing: .15em;
+     -webkit-animation: typing2 2s steps(26, end), blink-caret 1s step-end infinite;
+     -webkit-animation-delay: 3s;
+     -webkit-animation-fill-mode: both;
+     -moz-animation: typing2 2s steps(26, end), blink-caret 1s step-end infinite;
+     -moz-animation-delay: 3s;
+     animation: typing2 2.5s steps(22, end) backwards, blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+     from {
+       width: 0
+     }
+     to {
+       width: 10em;
+     }
+}
+@keyframes typing2 {
+     from {
+       width: 0
+     }
+     to {
+       width: 20em;
+     }
+}
+@keyframes blink-caret {
+     from, to {
+       border-color: transparent
+     }
+     50% {
+       border-color: #BCC8E4;
+     }
+}
+
+.flip-card {
+  display:block;
+  margin:auto;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
