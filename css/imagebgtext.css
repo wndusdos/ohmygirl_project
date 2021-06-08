@@ -1,0 +1,93 @@
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'Beakeumrye';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Beakeumrye.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DOSGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #E16162;
+  font-weight: normal;
+  line-height: 180%;
+}
+a:hover {
+  text-decoration: none;
+  color:#fff;
+  background-color: #E16162;
+  line-height: 180%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+p {
+  line-height: 170%;
+  color:#F5F3F9;
+  padding: 5px 0;
+}
+li {
+  color: #D1CFD4;
+  text-decoration: none;
+  padding: 2px 0;
+}
+body {
+  margin:0;
+  height: 100%;
+  font-family: 'DOSGothic';
+}
+
+button {
+  position:absolute;
+  left:36%;
+  transform: translate(-50%, -50%);
+  font-family: 'DungGeunMo';
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0%;
+  border-style: solid;
+  border-color: #E16162;
+  color:#363533;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  margin:20px;
+  background-color: #F5F3F9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 10px 30px;
+}
+button:hover{
+  background-color: #363533;
+  color: white;
+  cursor: pointer;
+  transition:0.4s;
+}
+span{
+  width:auto;
+  height:20px;
+  padding:5px;
+}
+span.inline-block{
+  display:inline-block;
+}
+audio {
+  display:none;
+}
+img {
+  padding:30px 0;
+}
+
+.textbox {
+  width:100%;
+  background-color: white;
+}
