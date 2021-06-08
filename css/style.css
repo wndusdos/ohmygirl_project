@@ -159,7 +159,10 @@ audio {
 }
 img {width:100%;
 }
-
+iframe{
+  width:100%;
+  height:auto;
+}
 
 .header {
   background:white;
