@@ -24,3 +24,15 @@ h3::after {
   from {width: 0%;}
   to {width: 100%;}
 }
+img {
+  position: fixed;
+  left:42%; bottom:48%;
+  width:80px;
+}
+.img {
+  animation: opacity 2s 4s ease both;
+}
+@keyframes opacity {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}

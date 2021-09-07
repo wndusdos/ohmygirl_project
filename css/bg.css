@@ -17,23 +17,26 @@ body {
   }
 
 button {
-  position:absolute;
-  left:28%;
-  transform: translate(-50%, -50%);
+  flex-direction: row;
+  justify-content: center;
+  display:flex;
   font-family: 'DungGeunMo';
-  font-weight: normal;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 18px;
   border-radius: 0%;
-  border-style:none;
+  border-style: solid;
+  border-color: #E16162;
+  color:#363533;
   width: auto;
   height: auto;
-  margin:20px;
+  margin:0 auto;
   background-color: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  padding: 5px 20px;
+  padding: 10px 30px;
 }
 button:hover{
   background-color: #363533;
+  border-color: #363533;
   color: #BCC8E4;
   cursor: pointer;
   transition:0.4s;
@@ -102,4 +105,37 @@ iframe{
   color: #E16162;
   cursor: pointer;
   transition:0.4s;
+}
+
+
+.cut-wrap {
+  width:100%;
+  height:auto;
+  position:relative;
+  overflow: hidden;
+}
+.cutone {
+  z-index:1;
+  position:absolute;
+  width:50%;
+  margin:10%
+}
+.cuttwo {
+  width:50%;
+  position:absolute;
+  left:50%;
+  z-index:2;
+}
+.cutthree {
+  width:100%;
+  position:relative;
+  margin-top:70%;
+  z-index:2;
+}
+.cutwiggle {
+  width:100%;
+  position:relative;
+  margin-top:70%;
+  z-index:2;
+    opacity:0;
 }

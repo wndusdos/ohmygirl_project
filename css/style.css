@@ -156,7 +156,9 @@ span.inline-block{
 audio {
   display:none;
 }
-img {width:100%;
+img {
+  width:100%;
+  padding:30px 0;
 }
 iframe{
   width:100%;
@@ -225,6 +227,8 @@ iframe{
   left:6%;
   opacity:0
 }
+
+
 
 /* Container needed to position the button. Adjust the width as needed */
 .container {
