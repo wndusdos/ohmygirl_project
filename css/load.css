@@ -26,7 +26,10 @@ h3::after {
 }
 img {
   position: fixed;
-  left:42%; bottom:48%;
+  flex-direction: row;
+  justify-content: center;
+  bottom:48%;
+  display:flex;
   width:80px;
 }
 .img {

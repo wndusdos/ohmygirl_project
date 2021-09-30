@@ -143,6 +143,24 @@ button:hover{
   cursor: pointer;
   transition:0.4s;
 }
+.btnblue {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'DungGeunMo';
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0%;
+  border-style: solid;
+  border-color: #363533;
+  width: auto;
+  height: auto;
+  margin:0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 10px 30px;
+  background-color: #bcc8e4;
+  color: black;
+}
 
 
 span{
@@ -205,6 +223,7 @@ iframe{
   left:10%;
   top:-50%;
   z-index:2;
+  padding:0;
 }
 .home-3{
   width:33%;
@@ -212,18 +231,20 @@ iframe{
   left:23%;
   top:-25%;
   z-index:2;
+  padding:0;
 }
 .tape {
   position:absolute;
   width:10%;
-  top:-24%;
+  top:-12%;
   right:8%;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  padding:0;
 }
 .wiggle {
   position:absolute;
   width:45%;
-  top:-40%;
+  top:-43%;
   left:6%;
   opacity:0
 }
